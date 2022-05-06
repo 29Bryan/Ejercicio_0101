@@ -29,14 +29,14 @@ public class Ejercicio0101 {
         sail.acelera();
         sail.frena();
         
-        //CLASE PERRO
+        //CLASE GATO
         Gato esfinge=new Gato();
         esfinge.color="Cafe";
         esfinge.dueño="Bryan";
         esfinge.marca="Esfinge";
         esfinge.edad=1;
         
-        System.out.println("-----CLASE PERRO-----");
+        System.out.println("-----CLASE GATO-----");
         System.out.println("Marca: "+esfinge.marca);
         System.out.println("Color: "+esfinge.color);
         System.out.println("Su dueno se llama: "+esfinge.dueño);
@@ -52,7 +52,7 @@ public class Ejercicio0101 {
         prepa.nprofesores=80;
         prepa.ubicacion="Cuenca";
         
-        System.out.println("-----CLASE CARRERA-----");
+        System.out.println("-----CLASE ESCUELA-----");
         System.out.println("Nombre del Director: "+prepa.ndirector);
         System.out.println("Numero de Estudiantes: "+prepa.nestudiantes);
         System.out.println("Numero de Profesores: "+prepa.nprofesores);
